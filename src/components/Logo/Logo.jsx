@@ -1,8 +1,8 @@
 const Logo = ({ size }) => {
   return (
-    <div>
+    <div className="flex flex-row items-center">
       <img src="logo.svg" alt="Sanly Binýat" width={size} />
-      <span>Sanly Binyat</span>
+      <span>Sanly Binýat</span>
     </div>
   );
 };
