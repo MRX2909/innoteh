@@ -14,37 +14,11 @@
     <link rel="stylesheet" href="/src/assets/styles/app.css" />
     <link rel="stylesheet" href="/src/assets/styles/blog-style.css" />
     <script src="/src/assets/js/new/jquery-3.3.1.min.js"></script>
-    <script src="/src/assets/styles/tailwindcss-3.4.1.js"></script>
     <title>Sanly Binýat</title>
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      window.onscroll = function () {
-        scrollFunction();
-      };
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          document.getElementById("myBtn").style.display = "block";
-        } else {
-          document.getElementById("myBtn").style.display = "none";
-        }
-      }
-      function topFunction() {
-        $("html,body").animate({ scrollTop: 0 }, 1000);
-      }
-
-      function showSubMenu() {
-        if ($("#sub-menu-m").is(":hidden")) {
-          $("#sub-menu-m").show();
-        } else {
-          $("#sub-menu-m").hide();
-        }
-      }
-    </script>
+    <script src="/src/assets/js/libs/slick.js"></script>
     <script src="/src/assets/js/libs/particles.min.js"></script>
     <script src="/src/assets/js/libs/jquery.fancybox.min.js"></script>
     <script src="/src/assets/js/ai/lib/magnific-popup.min.js"></script>
@@ -57,7 +31,6 @@
     <script src="/src/assets/js/common.js"></script>
     <script src="/src/assets/js/script.js"></script>
     <script src="/src/assets/js/ai/script.js"></script>
-    <script src="/src/assets/js/new/owl.carousel.min.js"></script>
     <script src="/src/assets/js/min.js"></script>
     <script src="/src/assets/js/gsap.min.js"></script>
     <script src="/src/assets/js/Max.min.js"></script>

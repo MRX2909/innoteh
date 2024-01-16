@@ -1,12 +1,16 @@
 import "./App.css";
+import MainPage from "./pages/MainPage/MainPage";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Particles from "./components/Particles/Particles";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Particles />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="*" element={<MainPage />} />
+      </Routes>
     </>
   );
 }

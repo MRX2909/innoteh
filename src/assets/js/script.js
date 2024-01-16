@@ -1,7 +1,4 @@
 $(function () {
-    // if (localStorage.cookie) {
-    //     $('.main__cookie').css('display','none');
-    // }
 	Ajax.csrf();
 	Images.fancy();
 
