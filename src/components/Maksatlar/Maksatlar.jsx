@@ -11,20 +11,20 @@ const Maksatlar = () => {
               <img
                 className="desktop"
                 src="/src/assets/img/agent/unknown-planet-notele.png"
-                srcSet="img/agent/unknown-planet-notele2x.png 2x"
+                srcSet="/src/assets/img/agent/unknown-planet-notele2x.png 2x"
                 alt=""
               />
               <img
                 id="telescopeid"
                 className="telescope"
                 src="/src/assets/img/agent/tele.png"
-                srcSet="img/agent/tele2x.png 2x"
+                srcSet="/src/assets/img/agent/tele2x.png 2x"
                 alt=""
               />
               <img
                 className="mobile"
                 src="/src/assets/img/agent/min-unknown-planet.png"
-                srcSet="img/agent/min-unknown-planet2x.png 2x"
+                srcSet="/src/assets/img/agent/min-unknown-planet2x.png 2x"
                 alt=""
               />
             </div>
@@ -39,7 +39,7 @@ const Maksatlar = () => {
                       <img
                         className=""
                         src="/src/assets/img/agent/ad-galaxy.png"
-                        srcSet="img/agent/ad-galaxy2x.png 2x"
+                        srcSet="/src/assets/img/agent/ad-galaxy2x.png 2x"
                         alt=""
                       />
                     </div>

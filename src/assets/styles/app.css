@@ -2747,7 +2747,6 @@ body {
   align-items: center;
 }
 .advantage-text {
-  font-family: "GolosUI";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -3321,7 +3320,6 @@ body {
   text-align: left;
 }
 .contact-us__button {
-  font-family: "GolosUi";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;

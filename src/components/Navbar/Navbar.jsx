@@ -14,7 +14,11 @@ const Navbar = () => {
           <Logo size={70} />
         </a>
 
-        <CiMenuBurger id="menu-icon" onClick={handleMenuButton} cursor={"pointer"}/>
+        <CiMenuBurger
+          id="menu-icon"
+          onClick={handleMenuButton}
+          cursor={"pointer"}
+        />
 
         <nav className={"navbar" + (isOpen ? " active" : "")}>
           <a href="#">Kibertäzelikler</a>
@@ -22,7 +26,10 @@ const Navbar = () => {
           <a href="#">Hyzmatlar</a>
         </nav>
       </header>
-      <div className={"nav-bg" + (isOpen ? " active" : "")}></div>
+      <div
+        className={"nav-bg" + (isOpen ? " active" : "")}
+        style={{ position: "fixed" }}
+      ></div>
     </>
   );
 };

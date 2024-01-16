@@ -2,6 +2,7 @@ import "./App.css";
 import MainPage from "./pages/MainPage/MainPage";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="*" element={<MainPage />} />
       </Routes>
+      <Footer />
     </>
   );
 }
