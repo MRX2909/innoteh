@@ -152,10 +152,10 @@ $(".tab-content").on("afterChange", function (event, slick, direction) {
   });
   $(
     '.tab-client-item[id="' +
-      $(".tab-content").slick("slickCurrentSlide") +
+      $(".tab-content").not('.slick-initialized').slick("slickCurrentSlide") +
       '"]'
   ).addClass("active-client-item");
-  let whereAreYou = getModCount($(".tab-content").slick("slickCurrentSlide"));
+  let whereAreYou = getModCount($(".tab-content").not('.slick-initialized').slick("slickCurrentSlide"));
   ClickToArrowCasesName(whereAreYou);
 });
 
@@ -184,7 +184,7 @@ $(".tab-client-item").on("click", function () {
     $(this).removeClass("active-client-item");
   });
   $(this).addClass("active-client-item");
-  $(".tab-content").slick("slickGoTo", $(this).prop("id"));
+  $(".tab-content").not('.slick-initialized').slick("slickGoTo", $(this).prop("id"));
 });
 
 // Перемещение активного окна на 5 элементов вперед. (Все кейсы сдвинуться на 5 вперед или назад)
@@ -266,7 +266,7 @@ let startPublicationsSlider = function () {
   let currentScreenWidth = 0;
   // console.log("tyt");
   let slickFuncProp = function () {
-    CasesSliderElement.slick({
+    CasesSliderElement.not('.slick-initialized').slick({
       infinite: false,
       centerMode: true,
       slidesToShow: 1,
@@ -278,7 +278,7 @@ let startPublicationsSlider = function () {
   };
   let slickIt = function () {
     if (slickCreated) {
-      CasesSliderElement.slick({
+      CasesSliderElement.not('.slick-initialized').slick({
         infinite: false,
         centerMode: true,
         slidesToShow: 1,
@@ -295,7 +295,7 @@ let startPublicationsSlider = function () {
   };
   let unSlickIt = function () {
     if (slickCreated) {
-      CasesSliderElement.slick("unslick");
+      CasesSliderElement.not('.slick-initialized').slick("unslick");
       slickCreated = false;
     }
   };
@@ -320,7 +320,7 @@ let startCasesClientNamesSlider = function () {
   let slickCreated = false;
   let currentScreenWidth = 0;
   let slickFuncProp = function () {
-    CasesSliderElement.slick({
+    CasesSliderElement.not('.slick-initialized').slick({
       infinite: false,
       centerMode: false,
       slidesToShow: 5,
@@ -334,7 +334,7 @@ let startCasesClientNamesSlider = function () {
   };
   let slickIt = function () {
     if (slickCreated) {
-      CasesSliderElement.slick("unslick");
+      CasesSliderElement.not('.slick-initialized').slick("unslick");
       slickFuncProp();
     } else {
       slickFuncProp();
@@ -343,7 +343,7 @@ let startCasesClientNamesSlider = function () {
   };
   let unSlickIt = function () {
     if (slickCreated) {
-      CasesSliderElement.slick("unslick");
+      CasesSliderElement.not('.slick-initialized').slick("unslick");
       slickCreated = false;
     }
   };
@@ -365,7 +365,7 @@ let startCasesSlider = function () {
   let currentScreenWidth = 0;
   // console.log("tyt");
   let slickFuncProp = function () {
-    CasesSliderElement.slick({
+    CasesSliderElement.not('.slick-initialized').slick({
       infinite: false,
       centerMode: true,
       slidesToShow: 1,
@@ -376,7 +376,7 @@ let startCasesSlider = function () {
     });
   };
   let slickIt = function () {
-    CasesSliderElement.slick({
+    CasesSliderElement.not('.slick-initialized').slick({
       infinite: false,
       centerMode: true,
       slidesToShow: 1,
@@ -388,7 +388,7 @@ let startCasesSlider = function () {
   };
   let unSlickIt = function () {
     if (slickCreated) {
-      CasesSliderElement.slick("unslick");
+      CasesSliderElement.not('.slick-initialized').slick("unslick");
       slickCreated = false;
     }
   };
@@ -414,7 +414,7 @@ let startRoboSlider = function () {
   let currentScreenWidth = 0;
   // console.log("tyt");
   let slickFuncProp = function () {
-    RoboSliderElement.slick({
+    RoboSliderElement.not('.slick-initialized').slick({
       infinite: false,
       centerMode: true,
       slidesToShow: 1,
@@ -426,7 +426,7 @@ let startRoboSlider = function () {
   };
   let slickIt = function () {
     if (slickCreated) {
-      RoboSliderElement.slick({
+      RoboSliderElement.not('.slick-initialized').slick({
         infinite: false,
         centerMode: true,
         slidesToShow: 1,
@@ -443,7 +443,7 @@ let startRoboSlider = function () {
   };
   let unSlickIt = function () {
     if (slickCreated) {
-      RoboSliderElement.slick("unslick");
+      RoboSliderElement.not('.slick-initialized').slick("unslick");
       slickCreated = false;
     }
   };

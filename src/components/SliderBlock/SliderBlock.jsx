@@ -38,7 +38,7 @@ const SliderBlock = () => {
           </div>
           <div className="tab-item__right-wrapper tab-item__right-wrapper--main">
             <img
-              src="/src/assets/img/new-images/cases/robot2.svg"
+              src="./src/assets//img/new-images/cases/robot2.svg"
               alt="Artificial intelligence"
               className="tab-item__right-wrapper_image tab-item__image"
             />
@@ -67,7 +67,7 @@ const SliderBlock = () => {
           </div>
           <div className="tab-item__right-wrapper tab-item__right-wrapper--main">
             <img
-              src="/src/assets/img/new-images/cases/game2.svg"
+              src="./src/assets//img/new-images/cases/game2.svg"
               alt="Cyber security"
               className="tab-item__right-wrapper_image tab-item__image tab-item__image--game"
             />
@@ -94,7 +94,7 @@ const SliderBlock = () => {
           </div>
           <div className="tab-item__right-wrapper tab-item__right-wrapper--main">
             <img
-              src="/src/assets/img/new-images/cases/rocket2.svg"
+              src="./src/assets//img/new-images/cases/rocket2.svg"
               alt="web/app development"
               className="tab-item__right-wrapper_image tab-item__image"
             />

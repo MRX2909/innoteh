@@ -10,21 +10,21 @@ const Maksatlar = () => {
             <div className="background-planet">
               <img
                 className="desktop"
-                src="/src/assets/img/agent/unknown-planet-notele.png"
-                srcSet="/src/assets/img/agent/unknown-planet-notele2x.png 2x"
+                src="./src/assets//img/agent/unknown-planet-notele.png"
+                srcSet="./src/assets//img/agent/unknown-planet-notele2x.png 2x"
                 alt=""
               />
               <img
                 id="telescopeid"
                 className="telescope"
-                src="/src/assets/img/agent/tele.png"
-                srcSet="/src/assets/img/agent/tele2x.png 2x"
+                src="./src/assets//img/agent/tele.png"
+                srcSet="./src/assets//img/agent/tele2x.png 2x"
                 alt=""
               />
               <img
                 className="mobile"
-                src="/src/assets/img/agent/min-unknown-planet.png"
-                srcSet="/src/assets/img/agent/min-unknown-planet2x.png 2x"
+                src="./src/assets//img/agent/min-unknown-planet.png"
+                srcSet="./src/assets//img/agent/min-unknown-planet2x.png 2x"
                 alt=""
               />
             </div>
@@ -38,8 +38,8 @@ const Maksatlar = () => {
                     <div className="advantage_img_outer">
                       <img
                         className=""
-                        src="/src/assets/img/agent/ad-galaxy.png"
-                        srcSet="/src/assets/img/agent/ad-galaxy2x.png 2x"
+                        src="./src/assets//img/agent/ad-galaxy.png"
+                        srcSet="./src/assets//img/agent/ad-galaxy2x.png 2x"
                         alt=""
                       />
                     </div>
@@ -52,7 +52,7 @@ const Maksatlar = () => {
                     <div className="advantage_img_outer">
                       <img
                         className=""
-                        src="/src/assets/img/agent/ad-robot.png"
+                        src="./src/assets//img/agent/ad-robot.png"
                         srcSet="./img/agent/ad-robot2x.png 2x"
                         alt=""
                       />
@@ -66,7 +66,7 @@ const Maksatlar = () => {
                     <div className="advantage_img_outer">
                       <img
                         className=""
-                        src="/src/assets/img/agent/ad-vr.png"
+                        src="./src/assets//img/agent/ad-vr.png"
                         srcSet="img/agent/ad-vr2x.png 2x"
                         alt=""
                       />
@@ -79,7 +79,7 @@ const Maksatlar = () => {
                     <div className="advantage_img_outer">
                       <img
                         className=""
-                        src="/src/assets/img/agent/ad-aster.png"
+                        src="./src/assets//img/agent/ad-aster.png"
                         srcSet="img/agent/ad-aster2x.png 2x"
                         alt=""
                       />
@@ -98,7 +98,7 @@ const Maksatlar = () => {
           <div className="landscape">
             <img
               className="landscpae-img"
-              src="/src/assets/img/agent/landscape.png"
+              src="./src/assets//img/agent/landscape.png"
               alt=""
             />
           </div>

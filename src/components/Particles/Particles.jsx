@@ -6,7 +6,7 @@ const Particles = () => {
       </div>
       <div className="agent-promo text-white">
         <div className="start-block-left">
-          <img src="/src/assets/img/new-images/stars.svg" alt="" draggable="false" />
+          <img src="./src/assets/img/new-images/stars.svg" alt="" draggable="false" />
           <div className="star-name-block star-gacrux">
             <span className="span__star-name">BILIM</span>
             <span className="span__star-coordinate">[−57° 06′ 47.5684″]</span>
@@ -26,7 +26,7 @@ const Particles = () => {
         </div>
         <div className="big-tittle">
           <h1 className="display-3 fw-bold">
-            Sanly Binýat
+            Innowasion Tehnologiýalar
             <br />{" "}
             <span className="display-6">elmydama, siziň bilen!</span>
           </h1>

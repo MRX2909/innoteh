@@ -5,37 +5,37 @@ const Wezipeler = () => {
         <div className="rocket">
           <img
             className="rocket-step step1"
-            src="/src/assets/img/agent/1step.png"
+            src="./src/assets/img/agent/1step.png"
             alt="step"
           />
           <img
             className="rocket-step step2"
-            src="/src/assets/img/agent/2step.png"
+            src="./src/assets/img/agent/2step.png"
             alt="step"
           />
           <img
             className="rocket-step step3"
-            src="/src/assets/img/agent/3step.png"
+            src="./src/assets/img/agent/3step.png"
             alt="step"
           />
           <img
             className="rocket-step step4"
-            src="/src/assets/img/agent/4step.png"
+            src="./src/assets/img/agent/4step.png"
             alt="step"
           />
           <img
             className="rocket-step step5"
-            src="/src/assets/img/agent/5step.png"
+            src="./src/assets/img/agent/5step.png"
             alt="step"
           />
           <div className="rocket-step last-step">
-            <img className="" src="/src/assets/img/agent/6step1.png" alt="step" />
-            <img className="" src="/src/assets/img/agent/6step1.png" alt="step" />
+            <img className="" src="./src/assets/img/agent/6step1.png" alt="step" />
+            <img className="" src="./src/assets/img/agent/6step1.png" alt="step" />
           </div>
           <div id="rocket-fire-id" className="rocket-fire">
-            <img className="" src="/src/assets/img/agent/smallfire.png" alt="step" />
-            <img className="" src="/src/assets/img/agent/bigfire.png" alt="step" />
-            <img className="" src="/src/assets/img/agent/smallfire.png" alt="step" />
+            <img className="" src="./src/assets/img/agent/smallfire.png" alt="step" />
+            <img className="" src="./src/assets/img/agent/bigfire.png" alt="step" />
+            <img className="" src="./src/assets/img/agent/smallfire.png" alt="step" />
           </div>
         </div>
         <div className="steps-info">

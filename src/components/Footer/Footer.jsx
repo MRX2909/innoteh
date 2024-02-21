@@ -27,21 +27,19 @@ const Footer = () => {
         <div className="footer_right-coordinates">
           <ul className="coordinates-list footer-list">
             <li className="coordinate-item">Aşgabat. ş</li>
-            <li className="coordinate-item">
-              E-salgy: kiberportal50@gmail.com{" "}
-            </li>
+            <li className="coordinate-item">E-salgy: innoteh@sanly.tm </li>
             <li className="coordinate-item">Tel: </li>
           </ul>
         </div>
       </div>
       <img
         className="footer-image__ui-union"
-        src="/src/assets/img/logo77.svg"
+        src="logo_yasyl.png"
         alt="Kiberportal"
       />
       <div className="footer_down-info">
         <p className="footer_down-info_rights">
-          © 2023 Kiberportal — Ähli hukuklar goralan
+          © {new Date().getFullYear()} InnoTeh — Ähli hukuklary goralan
         </p>
       </div>
     </footer>
